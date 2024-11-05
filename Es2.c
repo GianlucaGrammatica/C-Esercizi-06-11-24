@@ -8,33 +8,15 @@
     a `0`, altrimenti dovrà calcolare `n * fattoriale(n - 1)`.
 */
 
-int CheckPari(int n) {
-    if (n % 2 == 0) {
+int CalcoloFattoriale(int n) {
+    if(n == 0) {
         return 1;
     }
-    return 0;
+
+    n * CalcoloFattoriale(n-1);
 }
 
 int main(void) {
-    int Dimensione;
-
-    printf("Dimensione dell'array: ");
-
-    scanf("%d", &Dimensione);
-    int Array[Dimensione];
-
-    for (int i = 0; i < Dimensione; i++) {
-        printf("\nValore cella %d:\t ", i);
-        scanf("%d", &Array[i]);
-    }
-
-    int Somma = 0;
-    for (int i = 0; i < Dimensione; i++) {
-        if(CheckPari(Array[i])) {
-            Somma += Array[i];
-        }
-    }
-
-    printf("\nSomma numeri pari: %d ", Somma);
+    printf("%d\n", CalcoloFattoriale(3));
     return 0;
 }
