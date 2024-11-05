@@ -49,8 +49,8 @@ cmake_ninja_workdir = C$:/Users/abcia/CLionProjects/Esercizi$ 06-11-24/cmake-bui
 
 build cmake_object_order_depends_target_Esercizi_06_11_24: phony || .
 
-build CMakeFiles/Esercizi_06_11_24.dir/Es2.c.obj: C_COMPILER__Esercizi_06_11_24_unscanned_Debug C$:/Users/abcia/CLionProjects/Esercizi$ 06-11-24/Es2.c || cmake_object_order_depends_target_Esercizi_06_11_24
-  DEP_FILE = CMakeFiles\Esercizi_06_11_24.dir\Es2.c.obj.d
+build CMakeFiles/Esercizi_06_11_24.dir/Es3.c.obj: C_COMPILER__Esercizi_06_11_24_unscanned_Debug C$:/Users/abcia/CLionProjects/Esercizi$ 06-11-24/Es3.c || cmake_object_order_depends_target_Esercizi_06_11_24
+  DEP_FILE = CMakeFiles\Esercizi_06_11_24.dir\Es3.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Esercizi_06_11_24.dir
   OBJECT_FILE_DIR = CMakeFiles\Esercizi_06_11_24.dir
@@ -63,7 +63,7 @@ build CMakeFiles/Esercizi_06_11_24.dir/Es2.c.obj: C_COMPILER__Esercizi_06_11_24_
 #############################################
 # Link the executable Esercizi_06_11_24.exe
 
-build Esercizi_06_11_24.exe: C_EXECUTABLE_LINKER__Esercizi_06_11_24_Debug CMakeFiles/Esercizi_06_11_24.dir/Es2.c.obj
+build Esercizi_06_11_24.exe: C_EXECUTABLE_LINKER__Esercizi_06_11_24_Debug CMakeFiles/Esercizi_06_11_24.dir/Es3.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Esercizi_06_11_24.dir

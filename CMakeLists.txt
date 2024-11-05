@@ -3,5 +3,5 @@ project(Esercizi_06_11_24 C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(Esercizi_06_11_24 Es2.c
-        Es2.c)
+add_executable(Esercizi_06_11_24 Es3.c
+        Es3.c)
