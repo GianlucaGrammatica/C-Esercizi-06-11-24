@@ -1,0 +1,3 @@
+C:/Users/abcia/CLionProjects/Esercizi 06-11-24/cmake-build-debug/CMakeFiles/Esercizi_06_11_24.dir
+C:/Users/abcia/CLionProjects/Esercizi 06-11-24/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/abcia/CLionProjects/Esercizi 06-11-24/cmake-build-debug/CMakeFiles/rebuild_cache.dir
